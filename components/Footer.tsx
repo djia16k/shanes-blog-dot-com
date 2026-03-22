@@ -1,13 +1,12 @@
 export default function Footer() {
   return (
     <footer className="border-t border-[var(--border)] mt-20">
-      <div className="max-w-3xl mx-auto px-5 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-[var(--text-muted)]">
+      <div className="max-w-3xl mx-auto px-5 py-8 text-sm text-[var(--text-muted)] text-center sm:text-left">
         <p>
           © {new Date().getFullYear()}{" "}
           <span className="text-[var(--accent)] font-medium">shanesblog.com</span>
-          {" "}— written by a real human, for better or worse.
+          {" "}— written by a real human.
         </p>
-        <p className="text-xs">No algorithms were harmed in the making of these opinions.</p>
       </div>
     </footer>
   );

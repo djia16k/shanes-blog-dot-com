@@ -7,7 +7,7 @@ export default function Header() {
       <div className="max-w-3xl mx-auto px-5 py-4 flex items-center justify-between">
         <Link
           href="/"
-          className="group flex flex-col leading-none hover:opacity-90 transition-opacity"
+          className="group inline-flex items-center leading-none hover:opacity-90 transition-opacity"
         >
           <span
             className="font-bold text-xl tracking-tight text-[var(--text)]"
@@ -15,9 +15,6 @@ export default function Header() {
           >
             shanesblog
             <span className="text-[var(--accent)]">.com</span>
-          </span>
-          <span className="text-[11px] text-[var(--text-muted)] tracking-wide uppercase">
-            thoughts & other nonsense
           </span>
         </Link>
 

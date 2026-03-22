@@ -3,7 +3,8 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "A bit about Shane and why this blog exists.",
+  description:
+    "Shane from Florida, living in NYC — writing at shanesblog.com.",
 };
 
 export default function About() {
@@ -26,35 +27,24 @@ export default function About() {
 
       <div className="prose">
         <p>
-          Hi. I&apos;m Shane. I built this blog because I have thoughts, and
-          thoughts without an outlet tend to accumulate in ways that are
-          generally not healthy for anyone involved.
+          Hi, I&apos;m Shane. I&apos;m just a guy from Florida who lives in New York
+          City and loves life. I love everything about life .. the good and the
+          bad. I like to work hard and do cool stuff.
         </p>
 
         <p>
-          I&apos;m a professional who takes their work seriously. I&apos;m also a
-          person who will absolutely spend twenty minutes debating the optimal
-          way to load a dishwasher and feel genuinely good about that use of
-          time. Both things are true. This blog is both of those things.
+          I made this blog because I feel compelled to write. It&apos;s just nice
+          to have a place to put thoughts that don&apos;t really feel like they
+          belong anywhere else.
         </p>
 
         <p>
-          You&apos;ll find posts about ideas, observations, whatever I happen to
-          be thinking about. Sometimes sharp. Sometimes silly. Occasionally both
-          in the same sentence.
+          It&apos;s simply meant to be an expression of me, and whatever I&apos;m
+          feeling. To be honest, I&apos;m not really sure what it will turn into
+          .. but it will always be shanesblog.com.
         </p>
 
-        <p>
-          No ads. No newsletter (yet). No algorithm telling me what to write.
-          Just a person with a keyboard and opinions.
-        </p>
-
-        <hr />
-
-        <p>
-          Want to get in touch? You probably know how to find me. If you
-          don&apos;t, that&apos;s probably fine too.
-        </p>
+        <p>Enjoy the ride.</p>
       </div>
     </div>
   );

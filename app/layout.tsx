@@ -39,7 +39,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${heading.variable} ${body.variable}`}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+          themes={["dark", "light"]}
+          storageKey="shanesblog-theme"
+        >
           <div className="min-h-screen flex flex-col bg-[var(--bg)] text-[var(--text)]">
             <Header />
             <main className="flex-1">{children}</main>
